@@ -51,7 +51,7 @@ main{
 .script{color: wheat;}
 
 .text-bx {width: 40%;}
-.text-bx h1 {font-size: 3rem;
+.text-bx h1 {font-size: 2.5rem;
     color: aliceblue;
 text-transform: ;}
 .text-bx h1 b{ background: -webkit-linear-gradient(#F59E0B, #EF4444);
@@ -64,17 +64,23 @@ font-weight: 400;
 font-size: 32px;
 margin-top: 20px;}
 .text-bx .input-bx{margin: 20px 0;
+    border-radius: 20px;
 display: flex;}
-.text-bx .input-bx input{width: 60%;
+.text-bx .input-bx input{width: 70%;
 display:block;
 height: 50px;
-padding: 10px;
+border-radius: 20px;
+padding: 7px;
 border: none;
 outline: none;
 color: rgb(3, 3, 3);
-font-size: 16px;}
+font-size: 15px;}
 .text-bx .input-bx input::placeholder{color: rgb(5, 5, 5);}
 .text-bx .input-bx button{outline: none;
+    border-radius: 40px;
+    margin-left: -40px;
+    height: 50px;
+    width: 200%;
 border: none;
 padding: 10px 20px;
 background: -webkit-linear-gradient(#F59E0B, #EF4444);
