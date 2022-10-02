@@ -14,9 +14,13 @@ nav{display:flex;
 justify-content: space-between;
 align-items: center;
 height: 100px;}
-nav .menu-icon{ cursor: pointer;
+nav .menu-icon{ position: absolute;
+    width: 2px;
+    height: 2;
+    cursor: pointer;
 display: none;
 cursor: pointer;
+
 }
 nav .logo a{
     font-size: 30px;
