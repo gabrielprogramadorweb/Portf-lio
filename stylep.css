@@ -115,6 +115,7 @@ nav{position: absolute;
   height: 100px;}
   nav .menu-icon{ cursor: pointer;
   display: flex;
+  position: fixed;
   cursor: pointer;
   justify-content: center;
  
