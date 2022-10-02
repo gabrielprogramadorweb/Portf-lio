@@ -66,31 +66,38 @@ h1 {color: aliceblue;}
 .text-bx p {color: aliceblue;
 font-weight: 400;
 font-size: 32px;
-margin-top: 20px;}
-.text-bx .input-bx{margin: 20px 0;
+margin-top: 20px;
+margin-bottom: 20px;}
+.text-bx .input-bx{margin: 0 auto;
     border-radius: 20px;
 display: flex;}
-.text-bx .input-bx input{width: 70%;
-display:block;
-height: 50px;
+.text-bx .input-bx input{width: 100%;
+    
+display:flex;
+height: auto;
 border-radius: 20px;
 padding: 7px;
 border: none;
 outline: none;
+margin: auto;
 color: rgb(3, 3, 3);
-font-size: 15px;}
-.text-bx .input-bx input::placeholder{color: rgb(5, 5, 5);}
+font-size: 1em;}
+.text-bx .input-bx input::placeholder{color: rgb(5, 5, 5);
+margin: auto;}
 .text-bx .input-bx button{outline: none;
-    border-radius: 40px;
-    margin-left: -40px;
-    height: 50px;
+    border-radius: 40px; 
+    margin-top: 40px;
+    height: auto;
     width: 200%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 border: none;
-padding: 10px 20px;
+padding: 10px 0px;
 background: -webkit-linear-gradient(#F59E0B, #EF4444);
 color: rgb(255, 255, 255);
 cursor: pointer;
-font-size:  15px; ;}
+font-size:  25px; ;}
 .medias-sociais{margin-top: 30px;
 }
 .medias-sociais i{
@@ -125,11 +132,13 @@ nav ul li a{font-size: 18px;
 color: aliceblue;}
 nav ul button{background: -webkit-linear-gradient(#8B5CF6, #EC4899);
 font-size: 18px;
-margin: 10px;}
+margin: auto;}
 .text-bx, .img-bx{width: 100%;
 text-align: center;}
 .text-bx{margin-bottom: 40px;}
-.text-bx.input-bx{justify-content: center;}
+.text-bx.input-bx{justify-content: center;
+
+}
 
 }
 .roxo {
@@ -153,6 +162,7 @@ text-align: center;}
     filter: blur(100px);
     transform: rotate(-17.38deg);
 }
+
 /*
 .rede {
     position: relative;
