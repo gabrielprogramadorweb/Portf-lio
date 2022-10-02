@@ -8,13 +8,10 @@ var iconMenu = document.querySelector('nav .menu-icon img');
                iconMenu.setAttribute("src", "close.png");
           }else {
              iconMenu.setAttribute("src","menu.png");
-      }
+      
+            }
              menu.classList.toggle('active');
-
-
-
   });
-
   var VanillaTilt = (function () {
     'use strict';
   
