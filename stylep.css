@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+ 
 }
 body {
   display: flex;
@@ -19,22 +20,22 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 1200px;
+  /*max-width: 1200px;*/
   flex-wrap: wrap;
   z-index: 1;
-  
+  max-width: 1300px;  
 }
 .container .card{
   position: relative;
   width: 280px;
   height: 400px;
   margin: 30px;
-  margin-top: 90px;
+  margin-top: 160px;
   box-shadow: 20px 20px 50px rgba(32, 31, 31, 0.653);
   border-radius: 15px;
   background:  -webkit-linear-gradient(#F59E0B, #EF4444);
   display: flex;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
   overflow: hidden;
   border-top: 1px solid rgb(184, 167, 167);
@@ -99,18 +100,24 @@ transition: 0.5s;
   height: 723.06px;
   left: -365px;
   top: -200px;
+  overflow-x: hidden;
   background: linear-gradient(180deg, rgba(0, 194, 255, 0) 0%, #FF29C3 100%);
   opacity: 0.3;
   filter: blur(100px);
   transform: rotate(-17.38deg);
 }
-nav{display:flex;
+
+nav{position: absolute;
+  display:flex;
+  top: 10px;
   justify-content: space-between;
-  align-items: center;
+  align-items: top;
   height: 100px;}
   nav .menu-icon{ cursor: pointer;
-  display: none;
+  display: flex;
   cursor: pointer;
+  justify-content: center;
+ 
   }
   nav .logo a{
       font-size: 30px;
@@ -135,4 +142,3 @@ nav{display:flex;
   letter-spacing: 1px;
   margin-left: 15px; 
   cursor: pointer;}
-  

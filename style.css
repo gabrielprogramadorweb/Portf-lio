@@ -53,7 +53,7 @@ main{
 .text-bx {width: 40%;}
 .text-bx h1 {font-size: 3rem;
     color: aliceblue;
-text-transform: uppercase;}
+text-transform: ;}
 .text-bx h1 b{ background: -webkit-linear-gradient(#F59E0B, #EF4444);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;}
