@@ -149,16 +149,16 @@ margin: 10px;}
   left: 50%;
   display: block;
   top: 100px;
-
   margin: auto;
   transform: translateX(-50%);
-text-align:cnter ;
+margin-left: 10px;
+margin-right: 10px;
 }
 .text-bx h1 {width: 100%;
 font-size: 3.5vh;
-text-indent: 10px;
+
 display: flex;
-text-align: center;
+text-align: ;
 text-justify:inter-word;
 text-transform: none;}
 .text-bx p{font-size: 3.5vh;
