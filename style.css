@@ -142,7 +142,13 @@ display: block;
 padding-bottom: 400;
 text-align: center;}
 .text-bx h1{
-  font-size: 2em;
+  font-size: 1.5em;
+  text-align: center;
+ 
+
+}
+.text-bx p{
+  font-size: 1.5em;
   text-align: center;
 
 }
@@ -150,21 +156,21 @@ text-align: center;}
   margin-top: 30px;
 }
 
-.img-bx img {width: 60%;
+.img-bx img {width: 50%;
   height:auto;
   display: flex;
   position: absolute;
   margin: 0 auto;
   align-items: center;
   justify-items: center;
-  transform: translate(-120%, 30%);
+  transform: translate(-130%, 20%);
 
 }
 .text-bx{margin-bottom: 40px;
   
 }
 .text-bx.input-bx{justify-content: center;
-}
+
 
 }
 .roxo {
@@ -273,5 +279,5 @@ text-align: center;}
   }
   .medias-sociais{
     margin-left: -10px;
-  margin-top: 300px;
+  margin-top: 350px;
   }
