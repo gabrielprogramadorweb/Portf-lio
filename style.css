@@ -32,7 +32,7 @@ nav ul{display: flex;
 list-style: none;
 align-items: center;
 }
-nav ul li{ padding: 0 15px;}
+nav ul li{ padding:10px;}
 nav ul li a {text-decoration: none;
 font-size: 17px;
 text-transform: uppercase;
@@ -41,12 +41,93 @@ nav ul button{border: none;
 background: -webkit-linear-gradient(#F59E0B, #EF4444);
 color: aliceblue;
 padding: 10px 20px;
-border-radius: 5px;
+border-radius: 10px;
 font-size: 16px;
-letter-spacing: 1px;
-margin-left: 15px; 
+width: 150px;
+letter-spacing: 1px; 
 cursor: pointer;}
-
+.wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: ;
+  }
+  
+  .button {
+    min-width: 300px;
+    min-height: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: #ffffff;
+    background: -webkit-linear-gradient(#F59E0B, #EF4444);
+  background: linear-gradient(90deg, rgba(#F59E0B) 0%, rgba(#EF4444) 100%);
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 12px 12px 24px rgba(#ffffff);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    }
+  
+  .button::before {
+  content: '';
+    border-radius: 1000px;
+    min-width: calc(300px + 12px);
+    min-height: calc(60px + 12px);
+    border: 6px solid #ffffff;
+    box-shadow: 0 0 60px rgba(#F59E0B);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+  }
+  
+  .button:hover, .button:focus {
+    color: #313133;
+    transform: translateY(-6px);
+  }
+  
+  .button:hover::before, button:focus::before {
+    opacity: 1;
+  }
+  
+  .button::after {
+    content: '';
+    width: 30px; height: 30px;
+    border-radius: 100%;
+    border: 6px solid #F59E0B;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite
+  }
+  
+  .button:hover::after, button:focus::after {
+    animation: none;
+    display: none;
+  }
+  
+  @keyframes ring {
+    0% {
+      width: 30px;
+      height: 30px;
+      opacity: 1;
+    }
+    100% {
+      width: 300px;
+      height: 300px;
+      opacity: 0;
+    }
+  }
+  
 main{
     margin-top :20px;
     display: flex;
@@ -164,42 +245,3 @@ text-align: center;}
     transform: rotate(-17.38deg);
 }
 
-/*
-.rede {
-    position: relative;
-    width: 100%;
-    height: 180px;
-
-    bottom: -300px;
-    align-items: center;
-    transition: all 0.4s ease-out;
-    margin-bottom: -200px;
-    border-radius: 50%;
-}
-
-.redefacebook {
-    background-color: #8B5CF6;
-}
-
-.rede#twitter {
-    background: -webkit-linear-gradient(#593c9e, #be377b);
-}
-
-.rede#instagram {
-    background: -webkit-linear-gradient(#8B5CF6, #EC4899);
-}
-
-.rede#snap {
-   
-    background: -webkit-linear-gradient( #EC4899, #8B5CF6);
-}
-
-.rede#plus {
-   
-    background: -webkit-linear-gradient( #EF4444,#F59E0B); 
-}
-
-.rede#youtube {
-   
-    background: -webkit-linear-gradient(#F59E0B, #EF4444); 
-}
