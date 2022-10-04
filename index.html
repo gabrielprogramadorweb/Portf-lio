@@ -2,55 +2,78 @@
 <html lang="pt-br">
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" href="faviconn.ico" type="image/x-icon" />
+   
+    <link rel="shortcut icon" href="favicon.ico" type="x-icon" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="target-densitydpi=device-dpi">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
     <title>Gabriel</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style.css" media="screen and (max-width: 480px)" />
-    <link href="style.css" rel="stylesheet" media="all and (max-width: 1024px)">  
+    <link href="styles.css" rel="stylesheet" media="all and (max-width: 1024px)">
+    
 </head>
+
 <body>
-    <div class="container">       
+    
+    <div class="container">
         <nav>
             <div class="eclipse">
                 <img src="eclipse.png" alt="" class="eclipse">
             </div>
             <div class="logo">
-                <a href="index.html">
+                <a href="index.html">⊗
+                </a>
             </div>
             <ul>
                 <li><a href="https://www.linkedin.com/in/gabriel-castro-231318193/"><button>Contato</button> </a></li>
                 <li><a href="https://gabrielprogramadorweb.github.io/Curr-culo/"><button>Currículo</button></a></li>
                 <li><a href="portfolio.html"><button>Portfólio </button></a></li>
-            </ul>       
-            <!--<div class="menu-icon" onclick="menu()">
+            </ul> 
+            <div class="menu-icon">
                 <img src="menu.png" alt="">
-            </div>-->
+            </div>
         </nav>
         <main>
-            
+           
             <div class="text-bx"> 
-                <h1>Olá! Me chamo Gabriel.</br>  
+                <h1>Olá! Me chamo Gabriel.</br>
+                    
                 </h1>
                 <p>
                     Sou <span class="laranja">Desenvolvedor</span> Front-End Junior & <span class="roxo"> Ui Design</span></p>
-                <div class="wrap">
-                <a href="https://r3isemusic.com.br/"><button class="button">Ver mais</button></a></div>
-                <div class="medias-sociais"><a href="https://www.instagram.com/gabriel_castro_ux.ui/"><i class="fa fa-instagram"></i></a><a href="https://www.linkedin.com/in/gabriel-castro-231318193/"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-youtube-play"></i></a></div>
-            </div>
+                    <div class="wrap">
+                        <a href="https://r3isemusic.com.br/"><button class="button">Ver mais</button></a></div>
+                        <div class="medias-sociais"><a href="https://www.instagram.com/gabriel_castro_ux.ui/"><i class="fa fa-instagram"></i></a><a href="https://www.linkedin.com/in/gabriel-castro-231318193/"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-youtube-play"></i></a></div>
+                    </div>
             <div class="img-bx">
-                <img src="avatar1.png" alt="">
+                <picture>
+                    <source srcset="avatar1.png" media="(min-width: 1024px)" >
+                    <img src="avatarr.png" alt="Capa do Instalura">
+                </picture>
+               
             </div>
-        </main>
+        </main><!----
+        <footer>
+            <section class="container2">
+                <div class="rede" id="facebook"><img class="icone" src="" /></div>
+                <div class="rede" id="twitter"></div>
+                <div class="rede" id="instagram"></div>
+                <div class="rede" id="snap"></div>
+                <div class="rede" id="plus"></div>
+                <div class="rede" id="youtube"></div>
+            </section>
+        </footer>-->
+
     </div>
     <script src="main.js"></script>
-    <script type="text/javascript" src="vanilla-tilt.js"></script>
-    <script type="text/javascript">
-      //Movimentação
-      VanillaTilt.init(document.querySelectorAll(".menu-icon"));
-      VanillaTilt.init(document.querySelectorAll(".img-bx"));
-    </script>
+    <!--<script>
+
+      var nome = window.prompt('Wusl é seu nome?')
+      document.write(`Olá, <strong>${nome}</strong> Seu nome tem ${nome.length} leras `)
+      document.write(`Seu nome em maiuscula é ${nome.toUpperCase()}`)
+    </script>-->
 </body>
 </html>
