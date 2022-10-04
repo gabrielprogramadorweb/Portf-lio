@@ -225,10 +225,7 @@ body{background-color: rgb(0, 0, 0);
           font-weight: bold;
       color: blanchedalmond;
       text-decoration: none;}
-      nav ul{display: flex;
-     
-      align-items: center;
-      }
+  
 
       nav ul li{ padding:3px;}
       nav ul li a {text-decoration: none;
@@ -251,11 +248,14 @@ body{background-color: rgb(0, 0, 0);
 nav ul {
   justify-content: center;
   margin: auto;
+  transform: translate(10%);
 }      
 
 } 
 .text-bx {width: 80%;
   height: auto;
+  margin: auto;
+  transform: translate(10%);
 }
 .text-bx h1 {font-size: 2.5rem;
     color: aliceblue;
@@ -286,23 +286,26 @@ color: rgb(3, 3, 3);
 font-size: 1em;}
 .text-bx .input-bx input::placeholder{color: rgb(5, 5, 5);
 margin: auto;}
-.img-bx {
-  margin: 10px auto;
-  position:absolute;
-  width: 400px;
-  padding-left: ;
+.img-bx { position:absolute;
+  margin: auto;
+  width: 100%;
+  max-width: 600px;
+  min-width: 300px;
+  padding-left: 10;
   padding-top: 320px;
+  transform: translate(-60%);
   
 }
-.button{position: ;
-  margin-top: 600px;
-  transform: translate(15%);
+.button{  margin:auto;
+  margin-top: 700px;
+  transform: translate(12%);
   justify-items: center;
+
   justify-content: center;
 }
 .medias-sociais{position: absolute;
   margin-top: 100px; 
-  transform: translate(70%);
+  transform: translate(70%)
 }
 .text-bx{margin-bottom: 70px;}
 .text-bx.input-bx{justify-content: center;
