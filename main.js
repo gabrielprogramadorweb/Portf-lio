@@ -1,17 +1,16 @@
-/*tor('nav ul');
+var menu = document.querySelector('nav ul');
 var menuBar = document.querySelector('nav .menu-icon');
 var iconMenu = document.querySelector('nav .menu-icon img');
 
-      menuBar.addEventListener('click', function() {
+menuBar.addEventListener('click', function(){
 
-           if(iconMenu.getAttribute("src") == 'menu.png') {
-               iconMenu.setAttribute("src", "close.png");
-          }else {
-             iconMenu.setAttribute("src","menu.png");
-      
-            }
-             menu.classList.toggle('active');
-  });*/
+    if(iconMenu.getAttribute("src") == 'menu.png') {
+        iconMenu.setAttribute("src", "close.png");
+    }else{
+        iconMenu.setAttribute("src","menu.png");
+    }
+    menu.classList.toggle('active');
+});
   var VanillaTilt = (function () {
     'use strict';
   
