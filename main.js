@@ -1,4 +1,4 @@
-var menu = document.querySelector('nav ul');
+/*tor('nav ul');
 var menuBar = document.querySelector('nav .menu-icon');
 var iconMenu = document.querySelector('nav .menu-icon img');
 
@@ -11,7 +11,7 @@ var iconMenu = document.querySelector('nav .menu-icon img');
       
             }
              menu.classList.toggle('active');
-  });
+  });*/
   var VanillaTilt = (function () {
     'use strict';
   
