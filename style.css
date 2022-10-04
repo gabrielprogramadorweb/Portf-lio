@@ -221,11 +221,9 @@ margin: 0;
 .img-bx{
   top: 40px;
 }
-.img-bx {width: 850px;
-  left: 50px;
-  transform: translate(-56%);
+.img-bx {width: 500%;
 }
-.button{transform: translate(85%);}
+
 .text-bx{margin-bottom: 70px;}
 .text-bx.input-bx{justify-content: center;
   
