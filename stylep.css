@@ -120,6 +120,7 @@ nav{position: absolute;
   justify-content: center;
  
   }
+
   nav .logo a{
       font-size: 30px;
       font-weight: bold;
@@ -134,15 +135,18 @@ nav{position: absolute;
   font-size: 17px;
   text-transform: uppercase;
   color: beige;}
-  nav ul button{border: none; 
+  nav ul button{position: absolute;
   background: -webkit-linear-gradient(#F59E0B, #EF4444);
   color: aliceblue;
+  margin-top: 10px;
   padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 50px;
   font-size: 16px;
+  right: 50%;
+  transform: translateX(50%);
   width: 100px;
   cursor: pointer;}
-  @media (max-width:970px) {
+  @media (max-width:870px) {
   
     body {
       display: block;
@@ -181,10 +185,9 @@ nav{position: absolute;
     }
     .container .card .content{
     padding: 20px;
+
     text-align: center;
-    transform: translateY(100px);
-    opacity: 0;
-    display: block
+    display: block;
     
     transition: 0.5s;
     }
@@ -229,8 +232,9 @@ nav{position: absolute;
       width: 100%;
       height: 100%;
       margin: auto;
-      justify-items: center;
-      display: flex;
+      left: -50%;
+      transform: translateX(50%);
+    
     }
     .eclipse {
       position: absolute;
@@ -272,13 +276,33 @@ nav{position: absolute;
       font-size: 17px;
       text-transform: uppercase;
       color: beige;}
-      nav ul button{border: none; 
+
+      nav ul button{
+      position: absolute;
       background: -webkit-linear-gradient(#F59E0B, #EF4444);
       color: aliceblue;
-      padding: 10px 20px;
-      border-radius: 5px;
+      right: 50%;
+  transform: translateX(50%);
+      border-radius: 50px;
       font-size: 16px;
       width: 100px;
+      margin-top: 0px;
       cursor: pointer;}
+      .medias-sociais{
+        position: ab;
+        margin-top: 500px;
+        background: -webkit-linear-gradient(#8B5CF6, #EC4899);
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+      }
+      .medias-sociais i{
+          font-size: 23px;
+          margin:  0 3px;
+          color: rgb(255, 255, 255);
+          padding: 7px;
+          border-radius: 5px;
+      }
   }
  

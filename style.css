@@ -37,11 +37,8 @@ nav ul button{border: none;
 background: -webkit-linear-gradient(#F59E0B, #EF4444);
 color: aliceblue;
 padding: 10px 20px;
-border-radius: 50px;
+border-radius: 5px;
 font-size: 16px;
-width: 120px;
-text-align: center;
-box-shadow: #8B5CF6;
 letter-spacing: 1px;
 margin-left: 15px; 
 cursor: pointer;}
@@ -145,7 +142,7 @@ nav .menu-icon{display:block;
 .logo{
   display:block;
   left: 0;
-  padding-left: 15px;
+  padding-left: 10px;
   margin: 0;
   position: absolute;
 }
@@ -180,7 +177,7 @@ margin: 10px;}
 
   margin: auto;
   transform: translateX(-50%);
-text-align:center ;
+text-align:cnter ;
 }
 .text-bx h1 {width: 100%;
 font-size: 3.5vh;
