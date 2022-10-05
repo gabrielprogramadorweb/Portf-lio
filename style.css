@@ -40,7 +40,7 @@ font-size: 17px;
 text-transform: uppercase;
 color: beige;}
 nav ul button{border: none;
-  background: -webkit-linear-gradient(#8B5CF6, #EC4899);
+  background: -webkit-linear-gradient(#6f57a8, #EC4899);
 color: aliceblue;
 padding: 10px 20px;
 border-radius: 50px;
@@ -48,7 +48,10 @@ font-size: 16px;
 letter-spacing: 1px;
 margin-left: 15px; 
 cursor: pointer;}
-
+nav ul button:hover{border: none;
+  background: -webkit-linear-gradient(#6f57a86c, #ec489ac2);
+border: 3px solid white;
+}
 main{
     margin-top :20px;
     display: flex;
@@ -84,7 +87,7 @@ font-size: 16px;}
 .text-bx .input-bx button{outline: none;
 border: none;
 padding: 10px 20px;
-background: -webkit-linear-gradient(#8B5CF6, #EC4899);
+background: -webkit-linear-gradient(#817895, #EC4899);
 color: rgb(255, 255, 255);
 cursor: pointer;
 font-size:  15px; ;}
