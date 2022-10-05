@@ -28,6 +28,17 @@ body{display: flex;
     margin-right: 0;
    
 }
+.eclipse {
+    position: absolute;
+    width: 500px;
+    height: 723.06px;
+    left: -365px;
+    top: -200px;
+    background: linear-gradient(180deg, rgba(0, 194, 255, 0) 0%, #FF29C3 100%);
+    opacity: 0.3;
+    filter: blur(100px);
+    transform: rotate(-17.38deg);
+}
 .borda{position: absolute;
     left: 0;
     bottom: 0;
