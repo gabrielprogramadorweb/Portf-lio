@@ -116,8 +116,9 @@ font-size:  15px; ;}
 }
 .img-bx{width: 60%;}
 .img-bx img{width: 30%;
-  right: 0;
+  right: 7%;
   top: 100px;
+  
   position: absolute;
 
 }
@@ -173,14 +174,14 @@ align-items: center;
 flex-direction: column;
 justify-content: center;
 transition: 0.3s ease-in;
-background: -webkit-linear-gradient(#F59E0B, #EF4444);
+background: -webkit-linear-gradient(#8B5CF6, #EC4899);
 }
 nav ul.active{transform: translateX(0);
 }
 nav ul li{padding: 10px;}
 nav ul li a{font-size: 18px;
 color: aliceblue;}
-nav ul button{background: -webkit-linear-gradient(#8B5CF6, #EC4899);
+nav ul button{background: -webkit-linear-gradient(#8B5CF6, #242223);
   width: 150px;
 font-size: 18px;
 margin: 10px;}
@@ -228,6 +229,7 @@ text-transform: none;}
   right: 50%;
   transform: translateX(50%);
   display: block;
+  padd-right: 20px;
   justify-content: center;
 }
 .wrap {position: absolute;
