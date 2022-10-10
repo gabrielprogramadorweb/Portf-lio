@@ -148,6 +148,14 @@ a{
     cursor: pointer;
 
 }
+.card h1{
+    position:absolute;
+    text-align: center;
+    justify-content: center;
+    top: 10%;
+    font-size: 1.5em;
+    
+}
 .container .card:hover p{
     transform: translateX(2px);
     opacity: 1;
