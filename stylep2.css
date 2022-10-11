@@ -120,6 +120,10 @@ body{display: flex;
     
 background-color: aqua;
 }
+.card img {
+    width: 300px;
+    height: 347px;
+}
 button{
     text-decoration: none;
     background: -webkit-linear-gradient(#8B5CF6, #EC4899);
