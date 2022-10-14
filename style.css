@@ -25,8 +25,11 @@ nav .menu-icon{ cursor: pointer;
 display: none;
 cursor: pointer;
 }
+.logo{position: relative;
+  top: -10%;
+}
 nav .logo a{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
 color: blanchedalmond;
 text-decoration: none;}
@@ -402,6 +405,7 @@ content: '';
     outline: none;
     position: relative;
     padding: 10px;
+    left: 3%;
     }
   
   .button::before {
