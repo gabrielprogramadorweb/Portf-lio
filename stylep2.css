@@ -123,6 +123,7 @@ flex-direction: row;
 .card img {
   width: 200px;
   height: 247px;
+  border-radius: 15px;
 }
 button {
   text-decoration: none;
