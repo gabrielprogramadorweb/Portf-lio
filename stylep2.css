@@ -1,206 +1,203 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
-@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
-*{
-    padding: 0;
-    margin: 0;
-    display: flex;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
+@import "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300";
+* {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-body{
-    body
-{background: #000000;
+body {
+  
+    background: #000000;
 
-min-height: 100vh;
-overflow: hidden;}
-.container{max-width: 1300px;}
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  .container {
+    max-width: 1300px;
+  }
+
+html {
+  white-space: nowrap;
 }
-html{
-    white-space:nowrap;
-    }
-    body {
-    display:inline-block;
-    overflow-x: hidden;
-   
-    }
-    title{color: #ffffff;}
-body{display: flex;
-    color: white;
-    background-image: url(fundo.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100vh;
-    background-size:cover;
-    mask-repeat: no-repeat;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    width: 100%;
-    height: 100vh;
-    justify-content: center;
-   
-    
-
-   
+body {
+  display: inline-block;
+  overflow-x: hidden;
+}
+title {
+  color: #ffffff;
+}
+body {
+  display: flex;
+  color: white;
+  background-image: url(fundo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+  background-size: cover;
+  mask-repeat: no-repeat;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
 }
 .eclipse {
-    position: absolute;
-    width: 500px;
-    height: 723.06px;
-    left: -365px;
-    top: -100px;
-    background: linear-gradient(180deg, rgba(0, 194, 255, 0) 0%, #FF29C3 100%);
-    opacity: 0.3;
-    filter: blur(100px);
-    transform: rotate(-17.38deg);
+  position: absolute;
+  width: 500px;
+  height: 723.06px;
+  left: -365px;
+  top: -100px;
+  background: linear-gradient(180deg, rgba(0, 194, 255, 0) 0%, #ff29c3 100%);
+  opacity: 0.3;
+  filter: blur(100px);
+  transform: rotate(-17.38deg);
 }
 
-
-.borda{position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: 1;
-    width: 200px;
-    height: 200px;
-  }
-.borda-r {position: absolute;
-    right: 0;
-    z-index: 1;
-    color: antiquewhite;
-    width: 200px;
-    height: 200px;
-  
-    bottom: 0;
-  
+.borda {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 200px;
+  height: 200px;
 }
-.nav{
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    left: 0;
+.borda-r {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  color: antiquewhite;
+  width: 200px;
+  height: 200px;
 
-
+  bottom: 0;
 }
-.bts{position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 20px;
-   
+.nav {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 0;
+}
+.bts {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 20px;
 }
 
-.eclipse{ position: absolute;
-    left: 0;
-    opacity: 0;
-
+.eclipse {
+  position: absolute;
+  left: 0;
+  opacity: 0;
 }
 
-.carrosel{ position: absolute;
-    left: 50%;
-    width: 100;
-    margin: auto;
-    top: 30%;
-    transform: translateY(-50%);
-    transform: translateX(-50%);
-    margin-bottom: 100px;
-   
-    margin-left: 0;
-    margin-right: 0;
+.carrosel {
+  position: absolute;
+  left: 50%;
+  width: 100;
+  display: flex;
+  margin: 0 auto;
+  top: 30%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  margin-bottom: 100px;
+flex-direction: row;
+ 
 }
-.card{position: relative;
-    width: 300px;
-    height: 347px;margin: 10px;
-    box-shadow: 20px 20px 50px rgba(32, 31, 31, 0.653);
-    border-radius: 15px;
-    background:  -webkit-linear-gradient(#F59E0B, #EF4444);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    border-top: 1px solid rgb(184, 167, 167);
-    border-left: 1px solid  rgb(184, 167, 167);
-    
-background-color: aqua;
+.card {
+  position: relative;
+  width: 200px;
+  height: 247px;
+  margin: 10px;
+  box-shadow: 20px 20px 50px rgba(32, 31, 31, 0.653);
+  border-radius: 15px;
+  background: -webkit-linear-gradient(#f59e0b, #ef4444);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-top: 1px solid rgb(184, 167, 167);
+  border-left: 1px solid rgb(184, 167, 167);
+
+  background-color: aqua;
 }
 .card img {
-    width: 300px;
-    height: 347px;
+  width: 200px;
+  height: 247px;
 }
-button{
-    text-decoration: none;
-    background: -webkit-linear-gradient(#8B5CF6, #EC4899);
-    border-radius: 50px;
-    color: white;
-    border: none;
-    cursor: pointer;
-    padding: 10px 20px;
-    font-family: 'Poppins', sans-serif;
+button {
+  text-decoration: none;
+  background: -webkit-linear-gradient(#8b5cf6, #ec4899);
+  border-radius: 50px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-family: "Poppins", sans-serif;
 }
-button:hover{
-    border: 3px solid rgb(255, 189, 7);
-   
+button:hover {
+  border: 3px solid rgb(255, 189, 7);
 }
-a{
-    text-decoration: none;
-    
+a {
+  text-decoration: none;
 }
-.card p {position: absolute;
-    text-align: center;
-    left: 50%;
-    bottom: 20%;
-    transform: translateX(-50%);
-    color: white;
-    opacity: 0;
-    cursor: pointer;
-
+.card p {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  bottom: 20%;
+  transform: translateX(-50%);
+  color: white;
+  opacity: 0;
+  cursor: pointer;
 }
-.card h1{
-    position:absolute;
-    text-align: center;
-    justify-content: center;
-    top: 10%;
-    font-size: 1.5em;
-    
+.card h1 {
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  top: 10%;
+  font-size: 1.0em;
 }
-.container .card:hover p{
-    transform: translateX(2px);
-    opacity: 1;
-    position: absolute;
-    text-align: center;
-    left: 50%;
-    bottom: 20%;
-    transform: translateX(-50%);
-    cursor: pointer;
-    
-  }
-  @media (max-width:770px)  {body{display: block;
+.container .card:hover p {
+  transform: translateX(2px);
+  opacity: 1;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  bottom: 20%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+@media (max-width: 770px) {
+  body {
+    display: block;
     height: auto;
-overflow-x: hidden;
+    overflow-x: hidden;
     justify-content: center;
     height: 100%;
-   margin-left: 0;
-   margin-right: 0;
-    width: 100%;
-
-
-}
-body, html {
-    overflow-x: hidden!important;
     margin-left: 0;
     margin-right: 0;
-    }
-html{
-    white-space:nowrap;
-    }
-    body {
-        position: absolute;
-    display:inline-block;
+    width: 100%;
+  }
+  body,
+  html {
+    overflow-x: hidden !important;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  html {
+    white-space: nowrap;
+  }
+  body {
+    position: absolute;
+    display: inline-block;
     overflow-x: hidden;
     left: 50%;
     transform: translateX(-50%);
-    background-size:100vh 100vh;
-    }
+    background-size: 100vh 100vh;
+  }
 
-   
-.container{
+  .container {
     position: relative;
     display: block;
     width: 100%;
@@ -208,48 +205,48 @@ html{
     margin: auto;
     margin-left: 0;
     margin-right: 0;
-}
-.vermais{
+  }
+  .vermais {
     position: absolute;
-   bottom: 0;
-   transform: translateX(-50%);
-   left: 50%;
-   margin-bottom: 20px;
-   border: 2px solid black;
-   border-radius: 30px;
-    
-
-}    
-.nav{
+    bottom: 0;
+    transform: translateX(-50%);
+    left: 50%;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 30px;
+  }
+  .nav {
     position: relative;
-   width: 300px;
-   height: auto;
+    width: 300px;
+    height: auto;
     margin-top: 80px;
     overflow-x: hidden;
     margin-left: 0;
     margin-right: 0;
-    
-}
-.borda {position: absolute;
+  }
+  .borda {
+    position: absolute;
     left: 0;
     z-index: 1;
     width: 100px;
     height: 150px;
-}
-.borda-r {position: absolute;
+  }
+  .borda-r {
+    position: absolute;
     right: 50px;
     z-index: 1;
     width: 100px;
     height: 150px;
-}
-.eclipse{ position: absolute;
+  }
+  .eclipse {
+    position: absolute;
     left: 0;
-
-}
-.carrosel{ padding-top: 200px;
+  }
+  .carrosel {
+    padding-top: 200px;
     margin-top: 200px;
-     position: absolute;
-     display: block;
+    position: absolute;
+    display: block;
     left: 50%;
     width: 100;
     top: 50%;
@@ -259,9 +256,9 @@ html{
     padding-bottom: 100px;
     margin-left: 0;
     margin-right: 0;
-    
-}
-.carrosel2{ position: absolute;
+  }
+  .carrosel2 {
+    position: absolute;
     left: 50%;
     width: 100;
     display: block;
@@ -270,38 +267,41 @@ html{
     transform: translateY(-50%);
     transform: translateX(-50%);
     margin-bottom: 100px;
-   
+
     margin-left: 0;
     margin-right: 0;
-}
-script{
+  }
+  script {
     opacity: 0;
-}
-.card{position: relative;
+  }
+  .card {
+    position: relative;
     display: block;
     width: 300px;
-    height: 347px;margin: 10px;
+    height: 347px;
+    margin: 10px;
     box-shadow: 20px 20px 50px rgba(32, 31, 31, 0.653);
     border-radius: 15px;
-    background:  -webkit-linear-gradient(#F59E0B, #EF4444);
+    background: -webkit-linear-gradient(#f59e0b, #ef4444);
     display: flex;
     justify-content: center;
     align-items: center;
- 
+
     border-top: 1px solid rgb(184, 167, 167);
-    border-left: 1px solid  rgb(184, 167, 167);
-    
-background-color: aqua;
-}
-button{
-    background: -webkit-linear-gradient(#8B5CF6, #EC4899);
+    border-left: 1px solid rgb(184, 167, 167);
+
+    background-color: aqua;
+  }
+  button {
+    background: -webkit-linear-gradient(#8b5cf6, #ec4899);
     border-radius: 50px;
     color: white;
     cursor: pointer;
     padding: 10px 20px;
-    font-family: 'Poppins', sans-serif;
-}
-.card p {position: absolute;
+    font-family: "Poppins", sans-serif;
+  }
+  .card p {
+    position: absolute;
     text-align: center;
     left: 50%;
     bottom: 20%;
@@ -309,9 +309,8 @@ button{
     color: white;
     opacity: 0;
     cursor: pointer;
-
-}
-.container .card:hover p{
+  }
+  .container .card:hover p {
     transform: translateX(2px);
     opacity: 1;
     position: absolute;
@@ -320,6 +319,5 @@ button{
     bottom: 20%;
     transform: translateX(-50%);
     cursor: pointer;
-    
   }
 }
