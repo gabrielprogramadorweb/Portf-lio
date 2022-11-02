@@ -1,7 +1,7 @@
 var porcent = document.querySelector('.porcent');
 var loading = document.querySelector('.loading');
 var count = 4;
-var load = setInterval(animate, 20);
+var load = setInterval(animate, 10);
 
 function animate(){
    
