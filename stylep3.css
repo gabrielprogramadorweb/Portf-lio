@@ -32,6 +32,10 @@ body{display: block;
     margin-right: 0;
    
 }
+script{color: #8B5CF6;
+
+    display: none;
+}
 .eclipse {
     position: absolute;
     width: 500px;
@@ -129,6 +133,13 @@ body{display: block;
     border-left: 1px solid  rgb(184, 167, 167);
     
 background-color: aqua;
+}
+.card img{position: relative;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+
 }
 button{
     text-decoration: none;
