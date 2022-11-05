@@ -603,7 +603,7 @@ h1 {
     display: block;
     align-items: center;
     left: 50%;
-    padding-left: 14px;
+    padding-left: px;
     transform: translateX(-50%);
     top: 290px;
    
