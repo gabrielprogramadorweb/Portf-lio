@@ -611,7 +611,7 @@ h1 {
 
   .button {
     position: absolute;
-    min-width: 300px;
+    min-width: 200px;
     min-height: 60px;
     font-family: "Poppins", ;
     font-size: 22px;
@@ -634,7 +634,7 @@ h1 {
   .button::before {
     content: "";
     border-radius: 1000px;
-    min-width: calc(300px + 12px);
+    min-width: calc(200px + 12px);
     min-height: calc(60px + 12px);
     border: 6px solid #ffffff;
     box-shadow: 0 0 60px rgba(#8b5cf6);
