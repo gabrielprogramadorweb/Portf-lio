@@ -60,11 +60,13 @@
 }
 @media (max-width: 800px) {
   .resumo {
+    background-color: black;
+    background-size: 100% 100%;
     position: relative;
     margin-top: 20px;
     height: 400px;
     margin-left: 20px;
-    overflow-x: hidden;
+    
   }
   .resumo .text {
     width: 60%;
@@ -83,6 +85,10 @@
     height: 300px;
 
     right: 0;
+  }
+  .resumo .eclipse img{
+    margin: 0;
+    padding: 0;
   }
   .barra {
     margin-top: 0px;

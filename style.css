@@ -364,11 +364,12 @@ h1 {
 
   body {
     position: relative;
-    background-color: rgb(18, 18, 18);
+    background-color: black;
     min-height: 100vh;
     display: block;
     width: 100%;
     overflow-x: hidden;
+    z-index: 55;
    
   }
   .container {
