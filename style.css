@@ -13,10 +13,9 @@
 body {
   margin: 0;
   background: #000000;
-  background-image: url(bg.jpg);
-  background-size: 100% 100vh;
+  
   min-height: 100vh;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .loading{
   position: absolute;
@@ -172,10 +171,13 @@ button:focus::after {
   transform: translate(0, 800%) 
 }
 .container {
-  max-width: 1300px;
-
+  position: relative;
+  background-image: url(bg.jpg);
+  background-size: 100% 100vh;
   margin: 0 auto;
-  padding: 0 4%;
+  width: 100%;
+  height: 650px;
+  
 }
 nav {
   display: flex;
@@ -189,6 +191,7 @@ nav .menu-icon {
   cursor: pointer;
 }
 .logo {
+  margin-left: 50px;
   position: relative;
   top: -10%;
 }
@@ -229,7 +232,7 @@ nav ul button:hover {
   border: 3px solid white;
 }
 main {
-  margin-top: 20px;
+  margin-top: 0px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -239,6 +242,7 @@ main {
 }
 
 .text-bx {
+  margin-left: 50px;
   width: 40%;
 }
 .text-bx h1 {
@@ -296,8 +300,8 @@ h1 {
   font-size: 15px;
 }
 .medias-sociais {
-  position: ab;
-  margin-top: 500px;
+  
+  position: relative;
   background: -webkit-linear-gradient(#8b5cf6, #ec4899);
   position: absolute;
   left: 50%;
@@ -348,12 +352,14 @@ h1 {
   bottom: 0;
 }
 
+
 @media (max-width: 770px) {
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    
   }
 
   body {
@@ -361,23 +367,30 @@ h1 {
     background-color: rgb(0, 0, 0);
     min-height: 100vh;
     display: block;
-    background-image: url(bg.jpg);
-    background-size: 1000px 100% ;
+    width: 100%;
+    overflow-x: hidden;
+   
   }
   .container {
-    width: 300px;
+    position: relative;
+    width: 100%;
+    height: 800px;
     display: block;
     margin: 0 auto;
     padding: 0;
+    z-index: 1;
+    background-image: url(bg.jpg);
+    background-size: 1900px 100% ;
   }
   .wrap {
+    position: relative;
     cursor: pointer;
     height: 100%;
     display: block;
     align-items: center;
     margin-left: -7px;
-    z-index: 8;
-    margin-top: -50px;
+    z-index: 4;
+    margin-top: 100px;
   }
   
   .button {
@@ -393,7 +406,7 @@ h1 {
     background: -webkit-linear-gradient(#8b5cf6, #ec4899);
     background: linear-gradient(90deg, rgba(#8b5cf6) 0%, rgba(#ec4899) 100%);
     border: none;
-    z-index: 2;
+    z-index: 5;
     border-radius: 1000px;
     box-shadow: 12px 12px 24px rgba(#ffffff);
     transition: all 0.3s ease-in-out 0s;
@@ -571,16 +584,17 @@ h1 {
   }
 
   .img-bx img {
+    
     position: absolute;
-    width: 250px;
-    top: 240px;
+    width: 300px;
+    top: 300px;
     margin-left: auto;
     margin-right: auto;
     margin: auto;
     right: 50%;
     transform: translateX(50%);
     display: block;
-z-index: -1;
+    z-index: -1;
     justify-content: center;
   }
   .wrap {
@@ -592,11 +606,12 @@ z-index: -1;
     padding-left: 14px;
     transform: translateX(-50%);
     top: 390px;
-    z-index: 4;
+   
   }
 
   .button {
-    min-width: 250px;
+    position: absolute;
+    min-width: 300px;
     min-height: 60px;
     font-family: "Poppins", ;
     font-size: 22px;
@@ -612,14 +627,14 @@ z-index: -1;
     transition: all 0.3s ease-in-out 0s;
     cursor: pointer;
     outline: none;
-    z-index: 5;
+    
     position: relative;
   }
 
   .button::before {
     content: "";
     border-radius: 1000px;
-    min-width: calc(250px + 12px);
+    min-width: calc(300px + 12px);
     min-height: calc(60px + 12px);
     border: 6px solid #ffffff;
     box-shadow: 0 0 60px rgba(#8b5cf6);

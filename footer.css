@@ -1,0 +1,58 @@
+.footer {
+  padding: 0;
+  margin: 0;
+}
+.footer p {
+  position: relative;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-bottom: -20;
+}
+.topo-button {
+  position: fixed;
+
+  width: 35px;
+  height: 35px;
+  font-size: 1em;
+  color: white;
+  text-align: center;
+  align-items: center;
+  right: 0;
+  bottom: 0;
+
+  background: -webkit-linear-gradient(#8b5cf6, #ec4899);
+}
+
+@media (max-width: 800px) {
+  .footer {
+    padding: 0;
+    margin: 0;
+  }
+  .footer p {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    text-align: bottom;
+    color: white;
+    padding-bottom: -20;
+    padding: 0;
+    font-size: 0.6em;
+  }
+  .topo-button {
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    text-decoration: none;
+    width: 35px;
+    height: 35px;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    right: 0;
+    bottom: 0;
+    transition: all 1000ms ease;
+    background: -webkit-linear-gradient(#8b5cf6, #ec4899);
+  }
+}
