@@ -172,7 +172,7 @@ button:focus::after {
 }
 .container {
   position: relative;
-  background-image: url(bg.jpg);
+  background-image: url(img/bg.jpg);
   background-size: 100% 100vh;
   margin: 0 auto;
   width: 100%;
@@ -379,7 +379,7 @@ h1 {
     margin: 0 auto;
     padding: 0;
     z-index: 1;
-    background-image: url(bg.jpg);
+    background-image: url(img/bg.jpg);
     background-size: 1900px 100% ;
   }
   .wrap {
