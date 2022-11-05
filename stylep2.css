@@ -10,12 +10,13 @@
 body {
   
     background: #000000;
-
-    min-height: 100vh;
+    overflow-x: hidden;
+    max-height: 100vh;
    
   }
   .container {
     max-width: 1300px;
+    max-height: 100vh;
   }
 
 html {
@@ -36,7 +37,7 @@ title {
 body {
   display: flex;
   color: white;
-  background-image: url(img/fundo.jpg);
+  background-image: url(img/fundo-.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100vh;
  
@@ -160,7 +161,7 @@ a {
   position: absolute;
   text-align: center;
   justify-content: center;
-  top: 10%;
+  top: 5%;
   font-size: 1.0em;
 }
 .container .card:hover p {
@@ -173,10 +174,11 @@ a {
   transform: translateX(-50%);
   cursor: pointer;
 }
-@media (max-width: 770px) {
+@media (max-width:870px) {
   body {
     display: block;
     height: auto;
+    
     overflow-x: hidden;
     justify-content: center;
     height: 100%;
