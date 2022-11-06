@@ -4,7 +4,7 @@ sr.reveal('.text-bx', { duration: 1000});
 
 sr.reveal('.img-avatar', {  duration: 2000});
 
-sr.reveal('.img-bx', {  duration: 30});
+
 
 
 
