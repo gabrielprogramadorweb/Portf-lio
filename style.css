@@ -396,7 +396,7 @@ h1 {
 .img-bx img {
   width: 40%;
   right: -1%;
-  top: 100px;
+  bottom: 0;
   
   position: absolute;
 }
@@ -725,6 +725,7 @@ h1 {
     display: block;
     z-index: -1;
     justify-content: center;
+    bottom: 20%;
   }
   .img-avatar img{
     margin: 0 auto;
