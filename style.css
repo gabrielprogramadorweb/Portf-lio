@@ -9,7 +9,10 @@
 :root {
   --color: #e08e00;
 }
-
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 98px;
+}
 body {
   margin: 0;
   background: #000000;
@@ -28,6 +31,9 @@ body {
   justify-content: center;
   z-index: 3;
  
+}
+.texx, .text-bx, .img-avatar, .resumo{
+  visibility: hidden;
 }
 .wrap {
   cursor: pointer;
@@ -372,7 +378,10 @@ h1 {
     font-family: "Poppins", sans-serif;
     
   }
-
+  html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 98px;
+  }
   body {
     position: relative;
     background-color: black;
