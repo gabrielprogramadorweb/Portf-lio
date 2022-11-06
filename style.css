@@ -32,7 +32,7 @@ body {
   z-index: 3;
  
 }
-.texx, .text-bx, .img-avatar, .resumo{
+.texx, .text-t, .img-avatar, .resumo{
   visibility: hidden;
 }
 .wrap {
