@@ -102,6 +102,30 @@ button:focus::after {
   animation: none;
   display: none;
 }
+.b-l{
+    width: 100px;
+    height: 100px;
+    background: -webkit-linear-gradient(#8b5cf6, #ec4899);
+    position: absolute;
+    top:-170%;
+    border-radius: 50%;
+    z-index: -4;
+    display: flex;
+    left: 0%;
+    transform: translateX(-50%);
+  }
+  .b-r{
+    width: 100px;
+    height: 100px;
+    background: -webkit-linear-gradient(#8b5cf6, #ec4899);
+    position: absolute;
+    top:-170%;
+    border-radius: 50%;
+    
+    display: flex;
+    right: 0%;
+    transform: translateX(50%);
+  }
 
 @keyframes ring {
   0% {
@@ -209,6 +233,9 @@ nav .menu-icon img {
   margin-left: 50px;
   position: relative;
   top: -10%;
+}
+.logo img{
+ left: 10%;
 }
 nav .logo a {
   font-size: 35px;
@@ -338,6 +365,30 @@ h1 {
 }
 .medias-sociais i:hover {
   transform: translateY(-10%);
+}
+.b-l{
+  width: 100px;
+  height: 100px;
+  background: -webkit-linear-gradient(#8b5cf6, #ec4899);
+  position: absolute;
+  top:-170%;
+  border-radius: 50%;
+  z-index: -4;
+  display: flex;
+  left: 0%;
+  transform: translateX(-50%);
+}
+.b-r{
+  width: 100px;
+  height: 100px;
+  background: -webkit-linear-gradient(#8b5cf6, #ec4899);
+  position: absolute;
+  top:-170%;
+  border-radius: 50%;
+  
+  display: flex;
+  right: 0%;
+  transform: translateX(50%);
 }
 .img-bx {
   width: 70%;
@@ -542,11 +593,11 @@ h1 {
     position: absolute;
   }
   .logo {
-    display: block;
+    display: flex;
     left: 0;
-    padding-left: 15px;
+    padding-left: 15%;
     margin: 0;
-    z-index: 1;
+    z-index: 3;
     position: absolute;
     
   }
@@ -625,7 +676,30 @@ h1 {
     left: 50%;
     transform: translateX(-50%);
   }
-
+.b-l{
+    width: 100px;
+    height: 100px;
+    background: -webkit-linear-gradient(#8b5cf6, #ec4899);
+    position: absolute;
+    top:-170%;
+    border-radius: 50%;
+    z-index: -4;
+    display: flex;
+    left: 0%;
+    transform: translateX(-50%);
+  }
+  .b-r{
+    width: 100px;
+    height: 100px;
+    background: -webkit-linear-gradient(#8b5cf6, #ec4899);
+    position: absolute;
+    top:-170%;
+    border-radius: 50%;
+    
+    display: flex;
+    right: 0%;
+    transform: translateX(50%);
+  }
   .borda3 {
     position: absolute;
     top: 0;
