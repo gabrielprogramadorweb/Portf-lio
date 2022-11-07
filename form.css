@@ -43,10 +43,12 @@ form button {
   border-radius: 20px;
   height: 30px;
   cursor: pointer;
+  background: -webkit-linear-gradient(#ec4899, #8b5cf6 );
+  color: white;
 }
 form button:hover {
     color: white;
-    background: -webkit-linear-gradient(#ec4899, #8b5cf6 );
+    background: -webkit-linear-gradient(#ec4899,  #ec4899);
   }
 
 @media (max-width: 800px) {
