@@ -709,7 +709,7 @@ h1 {
     border-radius: 40%;
     width: 200px;
     height: 200px;
-    background: -webkit-linear-gradient(#ec4899, #8b5cf6);
+    background: -webkit-linear-gradient(#ec4899, #8b5cf6 );
   }
 
   .img-bx img {
