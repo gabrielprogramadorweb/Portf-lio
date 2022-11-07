@@ -21,6 +21,8 @@ h1 {
 }
 form h1 {
   display: flex;
+  line-height: 1;
+  padding: 10px;
   text-align: center;
   background: -webkit-linear-gradient(#ec4899, #8b5cf6);
   border-radius: 20px;
