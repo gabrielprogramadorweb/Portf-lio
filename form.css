@@ -9,10 +9,8 @@ form {
   margin-top: -300px;
   left: 5%;
 }
-h1 {
-  text-align: center;
-  margin-top: 30px;
-}
+
+
 .obg img {
   position: relative;
   left: 50%;
@@ -31,6 +29,7 @@ form h1 {
 input,
 textarea,
 label {
+  height: 40px;
   margin-bottom: 10px;
   padding-left: 20px;
   border-radius: 20px;
@@ -39,10 +38,11 @@ label {
 }
 form textarea {
   height: 100px;
+  padding-top: 10px;
 }
 form button {
   border-radius: 20px;
-  height: 30px;
+  height: 40px;
   cursor: pointer;
   background: -webkit-linear-gradient(#ec4899, #8b5cf6);
   color: white;
@@ -76,7 +76,7 @@ form button:hover {
     background-color: rgb(43, 45, 45);
   }
   form textarea {
-    padding-top: 2px;
+    padding-top: 10px;
     height: 100px;
   }
   form button {
