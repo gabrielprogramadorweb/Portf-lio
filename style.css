@@ -9,6 +9,12 @@
 :root {
   --color: #e08e00;
 }
+@font-face{
+  font-family: 'montage';
+  src: url('font/Montage-Demo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 98px;
@@ -456,6 +462,7 @@ h1 {
     background-image: url(img/bg.jpg);
     background-size: 1100px 100%;
   }
+
   .wrap {
     position: relative;
     cursor: pointer;
