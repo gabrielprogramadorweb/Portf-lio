@@ -689,6 +689,13 @@ h1 {
     right: 0%;
     transform: translateX(50%);
   }
+  .card-creator .follow {
+    padding: 1rem 1rem;
+    font-size: 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    
+  }
   .borda3 {
     position: absolute;
     top: 0;

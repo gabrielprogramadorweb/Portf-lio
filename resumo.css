@@ -8,6 +8,9 @@
 .resumo .text {
   width: 60%;
 }
+.resumo .text h1{
+  font-size: 3em;
+}
 .resumo .foto {
   width: 400px;
   height: 200px;
@@ -34,9 +37,20 @@
 .texx {
   margin-top: 30px;
   width: 100%;
-  margin-bottom: -2;00px;
-  margin-left: 50px;
+  
+  margin-bottom: -2;
+  margin-left: 4%;
   text-align: left;
+}
+.texx img {
+ 
+  margin-left: -5%;
+  text-align: left;
+}
+.texx h1 {
+ 
+  font-size: 3em;
+  animation: fadeIntext 0s 1.1s both;
 }
 .fotos-tec {
   margin-top: 50px;
@@ -71,8 +85,12 @@
   .resumo .text {
     width: 60%;
   }
+  .resumo .text h1{
+    font-size: em;
+  }
+  
   .resumo p {
-    font-size: 0.9em;
+    font-size: 1.1em;
     margin-top: 10px;
     color: white;
     text-align: left;
@@ -117,6 +135,7 @@
     transform: translateX(50%);
     text-align: center;
     opacity: 0;
+    font-size: 3em;
     animation: fadeIntext 0s 1.1s both;
   }
   .text-block{
